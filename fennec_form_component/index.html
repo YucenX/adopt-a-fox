@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adopt a Fennec Fox Pokémon</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Adopt a Fennec Fox Pokémon</h1>
+    <form id="adoption-form">
+      <!-- Name Fields -->
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" required />
+      </div>
+      <div class="form-group">
+        <label for="middleName">Middle Name</label>
+        <input type="text" id="middleName" />
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" required />
+      </div>
+
+      <!-- Species Dropdown -->
+      <div class="form-group">
+        <label for="species">Select a Pokémon Species</label>
+        <select id="species" required>
+          <option value="Fennekin">Fennekin</option>
+          <option value="Braixen">Braixen</option>
+          <option value="Delphox">Delphox</option>
+        </select>
+      </div>
+
+      <!-- Shiny Checkbox -->
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="isShiny" />
+          Request Shiny Variant
+        </label>
+      </div>
+
+      <!-- Gender Radio -->
+      <div class="form-group">
+        <label>Preferred Gender</label>
+        <label><input type="radio" name="gender" value="Male" required /> <span class="male">Male</span></label>
+        <label><input type="radio" name="gender" value="Female" required /> <span class="female">Female</span></label>
+      </div>
+
+      <!-- Dynamic Image -->
+      <div class="form-group">
+        <label>Preview</label>
+        <div class="image-box">
+          <img id="sprite" src="" alt="Pokémon Sprite" />
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-group">
+        <button type="submit">Submit Application</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

@@ -109,5 +109,5 @@ button:hover {
   width: 150px;
   height: auto;
   object-fit: contain;
-  /* filter: drop-shadow(0 0 4px #ff9800); */
+  filter: drop-shadow(0 0 1px grey);
 }

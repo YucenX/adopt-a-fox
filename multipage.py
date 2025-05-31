@@ -1,5 +1,3 @@
-# multipage.py
-
 import streamlit as st
 
 pages = {

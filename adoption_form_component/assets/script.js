@@ -1,4 +1,3 @@
-// ----------------------------------------------------
 // Streamlit messaging helpers
 function postToStreamlit(type, data = {}) {
   window.parent.postMessage({

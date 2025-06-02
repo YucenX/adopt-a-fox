@@ -1,8 +1,8 @@
 import streamlit as st
 
 pages = {
-    "Breeding Tree": st.Page("st_pages/breeding_tree.py", title="Fox Breeding Tree", icon="💞"),
-    "Adoption": st.Page("st_pages/adoption.py", title="Adopt a Fox", icon="🦊"),
+    "Svelte": st.Page("st_pages/svelte.py", title="Adopt-a-Fox Editor", icon="🦊"),
+    "Adoption": st.Page("st_pages/adoption.py", title="Legacy Adopt-a-Fox Form", icon="💞"),
 }
 
 pg = st.navigation(list(pages.values()))
